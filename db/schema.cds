@@ -1,7 +1,7 @@
 using { cuid, managed, sap.common.CodeList } from '@sap/cds/common';
 namespace sap.capire.incidents; 
 
-/**
+/** 
 * Incidents created by Customers.
 */
 entity Incidents : cuid, managed {  
